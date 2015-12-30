@@ -1,0 +1,156 @@
+/*BAR*/
+
+.bar {
+	width: 100%;
+	height: 6px;
+	background-color: #f00;
+}
+
+body{
+	margin: 0;
+	/*background-color: #0f0f0f;*/
+	/*color: white;*/
+	background-color: #fefefe;
+	color: black;
+	min-width: 1000px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.image{}
+
+.title {
+	left: 10px;
+}
+
+.time {
+	right: 10px;
+}
+
+.light {
+	font-family: Grotesque MT;
+	/*font-family: Folio Std;*/
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.header {
+	/*background-color: #00f;*/
+	/*width: 97%;*/
+	margin: 15px auto;
+	height: auto;
+	text-align: center;
+	/*font-family: DejaVu Sans Mono;*/
+
+	/*text-transform: uppercase;*/
+}
+
+.header-item {
+	/*display: inline-block;*/
+	/*background-color: #f0f;*/
+}
+
+
+/*LOWER SECTION*/
+
+.wrapper-lower {
+	/*background-color: #000;*/
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+	/*color: white;*/
+	padding-top: 20px;
+}
+
+.image {
+
+	/*width: 100%;*/
+	/*background-color: #f0f;*/
+	margin: 0px 0 10px 0;
+}
+
+.image.closed{
+	display: none;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	/*max-width:100%;*/
+	/*min-width: 100%;*/
+	/*max-height: 80%;*/	
+}
+
+.archive-entry {
+	margin: 10px auto 20px auto;
+	/*background-color: #00f;*/
+	width: 70%;
+	/*max-height: 80%;*/
+	height: auto;
+	
+}
+
+.archive-metadata {
+	padding-top: 5px;
+	border-top: dotted 1px black;
+	text-transform: uppercase;
+	/*font-family: DejaVu Sans Mono;*/
+	font-size: 13px;
+	/*font-family: DejaVu Sans;*/
+	font-family: Grotesque MT;
+	/*font-family: Folio Std;*/
+	font-weight: 400;
+	width: 100%;
+	display: inline-block;
+}
+
+.archive-item {
+	display: inline-block;
+	/*background: #eee;*/
+}
+
+.observation {
+	font-weight: bold;
+	display: inline-block;
+	font-family: Domaine Text;
+	/*font-family: Libre Baskerville;*/
+	/*font-family: Vollkorn;*/
+	font-size: 45px;
+	margin: 7px 0 10px 0 ;
+}
+
+.test-image {
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	background-image: url("../../assets/images/pf-30.jpg");
+	background-size: cover;
+	background-position: center bottom;
+}
+
+/*Space means find all x classes in y. No space means find divs with both classes.
+/*.y .x ——> Find x in y */
+/*.y.x ——> Both Classes*/
+
+/*FOOTER*/
+
+.footer{
+	margin: 100px 0 0 0;
+	padding: 0 0 20px 0;
+	width: 100%;
+	height: 30px;
+	/*background-color: #888;*/
+	text-align: center;
+}
